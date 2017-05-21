@@ -1,0 +1,150 @@
+/* --------------------- question ------------------------------ */
+.question {
+	display: inline-block;
+	width: 85%;
+   margin-left: .5em;
+	box-sizing: border-box;
+
+		@media #{$brk-narrow}{
+			width: 95%;
+		}
+		@media #{$brk-iPhone6sPlus-wide}{
+			width: 85%;
+		}
+		@media #{$brk-iPhone6sPlus-portrait}{
+			width: 95%;
+		}
+}
+
+.question:active {
+	box-shadow: 0 1px 4px rgba(50, 23, 34, 3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.question > div > span {
+//   color: $color-prim;
+}
+
+.rus_def {
+	display: inline-block;
+	border-bottom: 1px solid $color-sec;
+	margin-bottom: .3em;
+}
+
+a {
+	color: rgba(51, 102, 153, 0.36);
+	text-decoration: underline;
+	cursor: auto;
+}
+a:hover {
+	color: #336699;
+}
+
+.add-space-for-mobile {
+	@media #{$brk-wide} {
+	height: 360px;
+       
+      @media #{$brk-narrow}{
+        height: 270px;
+      }
+      @media #{$brk-iPhone6sPlus-wide}{
+//				
+//        height: 
+      }
+      @media #{$brk-iPhone6s-wide}{
+
+//        height: 
+      }
+      @media #{$brk-iPhone-wide}{
+        height: 165px;
+      }
+      @media #{$brk-iPhone6sPlus-portrait}{
+//        height: 
+      }
+      @media #{$brk-iPhone6s-portrait}{
+//        height: 
+      }
+      @media #{$brk-extra-narrow}{
+        height: 220px;
+    }
+	}
+}
+.highlight {
+	margin-left: -9%;
+	width: intrinsic ;
+	padding: 0 10px ;
+	background-color: $pink;
+}
+
+pre.highlight,
+div.highlight {
+	display: block;
+	box-sizing: border-box;
+  margin: 1.5em auto 1em 8%;
+	min-width: 90%;
+	padding: 2em;
+	border-radius: .2em;
+	background: #d2d4d4;
+	overflow-y: auto;
+	-webkit-overflow-y-scrolling: touch; /* lets it scroll lazy */
+	max-height: 70%;
+}
+
+div.codehilite {
+	overflow-x: auto;
+	-webkit-overflow-y-scrolling: touch;
+}
+
+
+.table_answer{
+	width: 70%;
+	max-width: 910px;
+	height: min-content;
+	margin: 20px auto;
+	box-sizing: border-box;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+		@media #{$brk-iPhone6sPlus-wide}{
+			width: 80%;
+	}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			width: 90%;
+		}
+}
+.td_back {
+//	width: 70%;
+	max-width: 910px;
+	margin: 0 auto;
+//	width: intrinsic;
+	border: none;
+}
+
+.meaning {
+    display: none;
+    margin: 0 auto 10px;
+    box-shadow: $color-shadow-white;
+    background: lighten($color-prim, 10%);
+    width: 100%;
+    padding: .5em;
+}
+
+.iphone .meaning,
+.ipad .meaning {
+display: block;
+}
+
+
+li {
+  padding-left: .5em; 
+  text-indent: -.4em;
+}
+li::before {
+   font-size: 1.5em;
+   content: "∘ ";
+   line-height: -30%;
+   color: $color-prim;
+}
+
+.hide-examples {
+//    margin-bottom: -500px;
+    z-index: -100;
+    position: absolute;
+    top: -1000px;
+}

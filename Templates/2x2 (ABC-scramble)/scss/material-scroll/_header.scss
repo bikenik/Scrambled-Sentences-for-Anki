@@ -1,0 +1,171 @@
+@import "bourbon";
+
+/*==================================== 
+  header new
+=====================================*/
+
+header {
+	position: fixed;
+	top: 0;
+	height: 255px;
+	width: 100%;
+	z-index: 100;
+	transition: z-index;
+	transition-delay: .3s;
+	@media #{$brk-wide} {}
+	@media #{$brk-wide-appButtons} {}
+	@media #{$brk-narrow} {
+		height: 350px;
+	}
+	@media #{$brk-iPhone6sPlus-wide} {
+		height: 150px;
+	}
+	@media #{$brk-iPhone6s-wide} {
+		height: 150px; 
+	}
+	@media #{$brk-iPhone-wide} {
+		height: 100px;
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+		height: 320px;
+	}
+	@media #{$brk-iPhone6s-portrait} {
+		height: 300px;
+	}
+	@media #{$brk-extra-narrow} {
+		height: 200px;
+	}
+	&.active {
+		z-index: 0;
+	}
+	.header-bg {
+		box-shadow: $color-shadow-white;
+		background: lighten($color-prim, 10%);
+		transition: .3s all ease;
+		@include position(absolute, 0 0 0 0);
+		//		overflow-y: auto;
+		//		-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
+	}
+	&.active .header-bg {
+		transform: translateY(-80px);
+		background: darken($color-prim, 1%);
+		transition: .3s all ease .15s;
+		@media #{$brk-wide} {
+			transform: translateY(-150px);
+		}
+		@media #{$brk-narrow} {
+			transform: translateY(-230px);
+		}
+		@media #{$brk-iPhone6sPlus-wide} {
+			transform: translateY(-70px);
+		}
+		@media #{$brk-iPhone6s-wide} {
+			transform: translateY(-70px);
+		}
+		@media #{$brk-iPhone-wide} {
+			transform: translateY(-57px);
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			transform: translateY(-230px);
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			transform: translateY(-230px);
+		}
+		@media #{$brk-iPhone6s-portrait} {
+			transform: translateY(-230px);
+		}
+		@media #{$brk-extra-narrow} {
+			transform: translateY(-140px);
+		}
+	}
+	&.active .cta-ctr {
+		z-index: 1000;
+		transform: rotate(0deg);
+		transition: .5s all ease .2s;
+		right: 85px;
+		top: 145px;
+		@media #{$brk-wide} {
+			right: 85px;
+			top: 75px;
+		}
+		@media #{$brk-narrow} {
+			right: 35px;
+			top: 85px;
+		}
+		@media #{$brk-iPhone6sPlus-wide} {
+			top: 45px;
+		}
+		@media #{$brk-iPhone6s-wide} {
+			top: 45px;
+		}
+		@media #{$brk-iPhone-wide} {
+			top: 15px;
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			top: 60px;
+		}
+		@media #{$brk-iPhone6s-portrait} {
+			top: 35px;
+		}
+		@media #{$brk-extra-narrow} {
+			top: 30px;
+		}
+	}
+	&.active .cta:after {
+		transform: rotate(180deg);
+		transition: .5s all ease .2s;
+		box-shadow: 0 -8px 12px 1px rgba(255, 255, 255, 0.2);
+	}
+	.cta-ctr {
+		@include position(absolute, 50px 50px 0 x);
+		transform-origin: bottom center;
+		transform: rotate(-90deg);
+		transition: .3s all ease;
+		z-index: 999;
+		@media #{$brk-narrow} {
+			@include position(absolute, 50px -25px 0 x);
+		}
+		@media #{$brk-iPhone6sPlus-wide} {
+			@include position(absolute, 5px 0 0 x);
+		}
+		@media #{$brk-iPhone6s-wide} {}
+		@media #{$brk-iPhone-wide} {
+			@include position(absolute, 5px 0 0 x);
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			@include position(absolute, 5px -115px 0 x);
+		}
+		@media #{$brk-iPhone6s-portrait} {}
+		@media #{$brk-extra-narrow} {
+			@include position(absolute, 50px 5px 0 x);
+		}
+	}
+	.cta {
+		width: 60px;
+		height: 60px;
+		background: $color-button;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: .3s all ease;
+		pointer-events: auto;
+		position: relative;
+		z-index: 1000;
+		&:after {
+			content: "";
+			box-shadow: 0 8px 12px 1px rgba(255, 255, 255, 0.2);
+			border-radius: 50%;
+			@include position(absolute, 0 0 0 0);
+			background: url("_arrow-down.svg") no-repeat center 14px transparent;
+			transform: rotate(90deg);
+			transition: .3s all ease-in-out;
+		}
+		&:hover {
+			background-color: lighten($color-button, 5%);
+		}
+	}
+}
+
+.iphone .hide,
+.ipad .hide {
+	display: none;
+}

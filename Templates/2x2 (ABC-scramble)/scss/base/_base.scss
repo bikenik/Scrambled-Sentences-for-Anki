@@ -1,0 +1,261 @@
+div:first-child {
+	opacity: .99;
+}
+
+
+/*==================================== 
+		Basic card options
+=====================================*/
+
+
+/* --------------------- Additional option for Additional Card Fields plugin------------------------------ */
+
+.loc,
+.card,
+.card1,
+.template_reading {
+	overflow: hidden;
+}
+
+.G,
+.q0,
+.q1,
+.q2 {
+	display: inline-block;
+	padding-left: .3em;
+	border-left: 2px solid;
+}
+
+.G {
+	border-left-color: gray;
+}
+
+.q0 {
+	/*new card*/
+	border-left-color: white;
+}
+
+.q1 {
+	/*studied card*/
+	border-left-color: darkgreen;
+}
+
+.q2 {
+	/*Repeated card*/
+	border-left-color: indigo;
+}
+
+
+/* --------------- Center content on page ---------------------- */
+
+html {
+	//	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+//.ipad .card {
+//	position: absolute;
+//	-webkit-font-smoothing: antialiased;
+//	-webkit-backface-visibility: hidden;
+//}
+// hide ugly scrollbar
+::-webkit-scrollbar {
+	display: none;
+}
+
+::-moz-scrollbar {
+	display: none;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+/* --------------- Center content vertically on page ---------------------- */
+
+.browserhide {}
+
+body {
+	//	background-repeat: no-repeat;
+	//	background-attachment: fixed;
+	padding: 0;
+	line-height: 1.5;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-backface-visibility: hidden;
+}
+
+//.card_1 {
+//	z-index: 100;
+//	background-attachment: fixed;
+//	background-repeat: no-repeat;
+//}
+.card {
+	@extend %alignBase;
+	width: 100%;
+	background: $background-app;
+	position: absolute;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden !important;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.mac .card,
+.win .card,
+.iphone .card,
+.ipad .card {
+	overflow-x: hidden;
+}
+
+.hr_style {
+	margin-bottom: 0%;
+}
+
+hr {
+	width: 100%;
+	height: 2px;
+	border: 0;
+	background: -webkit-linear-gradient(left, rgba(198, 63, 87, 0) 0%, rgba(198, 63, 87, 0.7) 50%, rgba(198, 63, 87, 0) 100%);
+	margin-top: -0.2em;
+}
+
+.normalize {
+	margin: 0 auto;
+}
+
+#copyright {
+	position: absolute;
+	right: 15px;
+	margin-top: -7px;
+}
+
+a {
+	color: rgba(51, 102, 153, 0.36);
+	text-decoration: underline;
+	cursor: auto;
+}
+
+a:hover {
+	color: #336699;
+}
+
+.add-space-for-mobile {
+	@media #{$brk-wide} {
+		height: 360px;
+		@media #{$brk-narrow} {
+			height: 270px;
+		}
+		@media #{$brk-iPhone6sPlus-wide} {
+			//				
+			//        height: 
+		}
+		@media #{$brk-iPhone6s-wide} {
+			//        height: 
+		}
+		@media #{$brk-iPhone-wide} {
+			height: 165px;
+		}
+		@media #{$brk-iPhone6sPlus-portrait} {
+			//        height: 
+		}
+		@media #{$brk-iPhone6s-portrait} {
+			//        height: 
+		}
+		@media #{$brk-extra-narrow} {
+			height: 220px;
+		}
+	}
+}
+
+.highlight {
+	margin-left: -9%;
+	width: intrinsic;
+	padding: 0 10px;
+	background-color: $pink;
+}
+
+pre.highlight,
+div.highlight {
+	display: block;
+	box-sizing: border-box;
+	margin: 1.5em auto 1em 8%;
+	min-width: 90%;
+	padding: 2em;
+	border-radius: .2em;
+	background: #d2d4d4;
+	overflow-y: auto;
+	-webkit-overflow-y-scrolling: touch;
+	/* lets it scroll lazy */
+	max-height: 70%;
+}
+
+div.codehilite {
+	overflow-x: auto;
+	-webkit-overflow-y-scrolling: touch;
+}
+
+.table_answer {
+	width: 70%;
+	max-width: 910px;
+	height: min-content;
+	margin: 20px auto;
+	box-sizing: border-box;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.12);
+	@media #{$brk-iPhone6sPlus-wide} {
+		width: 80%;
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+		width: 90%;
+	}
+}
+
+.td_back {
+	//	width: 70%;
+	max-width: 910px;
+	margin: 0 auto;
+	//	width: intrinsic;
+	border: none;
+}
+
+.meaning {
+	display: none;
+	margin: 0 auto 10px;
+	box-shadow: $color-shadow-white;
+	background: lighten($color-prim, 10%);
+	width: 100%;
+	padding: .5em;
+}
+
+.iphone .meaning,
+.ipad .meaning {
+	display: block;
+}
+
+li {
+	padding-left: .5em;
+	text-indent: -.4em;
+}
+
+li::before {
+	font-size: 1.5em;
+	content: "∘ ";
+	line-height: -30%;
+	color: $color-prim;
+}
+
+.hide-examples {
+	//    margin-bottom: -500px;
+	z-index: -100;
+	position: absolute;
+	top: -1000px;
+}

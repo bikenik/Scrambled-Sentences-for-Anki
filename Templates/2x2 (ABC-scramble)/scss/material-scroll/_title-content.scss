@@ -1,0 +1,205 @@
+@import "bourbon";
+/*==================================== 
+  title-content
+=====================================*/
+header {
+.title,
+	.title2 {
+		position: relative;
+		height: 100%;
+      z-index: 999;
+	}
+   
+	.title {
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
+	}
+   
+	.title2 {
+		overflow: hidden;
+		top: -255px;
+      z-index: 0;
+  	@media #{$brk-wide}{
+//			top: -275px;
+		}
+		@media #{$brk-wide-appButtons}{
+			top: -270px;
+		}
+		@media #{$brk-narrow}{
+			top: -350px;
+		}
+		@media #{$brk-iPhone6sPlus-wide}{
+			top: -155px;
+		}
+		@media #{$brk-iPhone6s-wide}{
+			top: -150px;
+		}
+		@media #{$brk-iPhone-wide}{
+			top: -100px;
+		}
+		@media #{$brk-iPhone6sPlus-portrait}{
+			top: -325px;
+		}
+		@media #{$brk-iPhone6s-portrait}{
+			top: -305px;
+		}
+		@media #{$brk-extra-narrow}{
+			top: -200px;
+		}
+	}
+  .title-content-1,
+  .title-content-2 {
+    @include position(relative, 25% x x .3em);
+    color: white;
+    transition: .3s all ease;
+    z-index: 0;
+	 padding-bottom: 50px;
+	 margin-left: .3em;
+	 margin-right: .3em;
+    z-index: 100;
+
+        @media #{$brk-wide}{
+        padding-bottom: 30px;
+        }
+        @media #{$brk-narrow}{
+         top: 35%;
+        }
+        @media #{$brk-iPhone6sPlus-wide}{
+         top: 20%;
+        }
+        @media #{$brk-iPhone6sPlus-portrait}{
+         top: 40%;
+        }
+  }
+	.title-content-2 {
+		  opacity: 0;
+			z-index: 0;
+      transform: translateY(-20px);
+			top: 30px;
+			left: .3em;
+		
+		
+  	@media #{$brk-wide}{
+			top: 150px;
+			left: .3em;
+		}
+		@media #{$brk-wide-appButtons}{
+			top: 70px;
+		}
+		@media #{$brk-narrow}{
+			top: 150px;
+		}
+		@media #{$brk-iPhone6sPlus-wide}{
+			top: 0;
+		}
+		@media #{$brk-iPhone6s-wide}{
+			top: -10px;
+			left: .3em;
+		}
+		@media #{$brk-iPhone-wide}{
+			top: -25px;
+			left: .3em;
+		}
+		@media #{$brk-iPhone6sPlus-portrait}{
+			top: 160px;
+		}
+		@media #{$brk-iPhone6s-portrait}{
+			top: 155px;
+			left: .3em;
+		}
+		@media #{$brk-extra-narrow}{
+			top: 60px;
+		}
+	}
+    
+  &.active .title-content-1 {
+    transform: translate(-50px, 105px);
+    transition: .3s all ease .15s;
+	 opacity: 1;
+     		@media #{$brk-wide}{
+	    font-size: em(24);
+			}
+		@media #{$brk-wide-appButtons}{
+
+			}
+		@media #{$brk-narrow}{
+			transform: translate(-15px, 135px);
+			}
+		@media #{$brk-iPhone6sPlus-wide}{
+         transform: translate(-15px, 60px);
+			}
+		@media #{$brk-iPhone6s-wide}{
+			transform: translate(-15px, 60px);
+			}
+		@media #{$brk-iPhone-wide}{
+			transform: translate(-15px, 45px);
+		}
+		@media #{$brk-iPhone6sPlus-portrait}{
+			font-size: em(24);
+         transform: translate(-15px, 115px);
+		}
+		@media #{$brk-iPhone6s-portrait}{
+			font-size: em(22);
+         transform: translate(-15px, 115px);
+		}
+		@media #{$brk-extra-narrow}{
+			font-size: em(20);
+         transform: translate(-10px, 65px);
+//			height: 5px;
+		}
+  }
+
+	&.active .title2 {
+		overflow: auto;
+		-webkit-overflow-scrolling: touch; /* lets it scroll lazy */
+	}
+    &.active .title-content-2 {
+//    font-size: em(20);
+    transform: translate(-230px, 85px);
+    transition: 3s all ease-in-out;
+	 opacity: 0;
+	 z-index: 200;
+//			height: 100px;
+	 font-size: em(24);
+	 width: 85%;
+	 margin-left: .5em;
+	 margin-right: 1.5em;
+//			padding-bottom: 140px;
+//		overflow-y: auto;
+			
+		@media #{$brk-wide}{
+//				height: 65px;
+	    font-size: em(24);
+				
+			}
+		@media #{$brk-wide-appButtons}{
+
+			}
+		@media #{$brk-narrow}{
+			transform: translate(-130px, 85px);
+			}
+		@media #{$brk-iPhone6sPlus-wide}{
+			padding-bottom: 15px;
+			}
+		@media #{$brk-iPhone6s-wide}{
+				
+			}
+		@media #{$brk-iPhone-wide}{
+			
+		}
+		@media #{$brk-iPhone6sPlus-portrait}{
+//			height: 30px;
+			font-size: em(24);
+			width: 95%;
+			padding-bottom: 30px;
+		}
+		@media #{$brk-iPhone6s-portrait}{
+			font-size: em(22);
+//			height: 5px;
+		}
+		@media #{$brk-extra-narrow}{
+			font-size: em(20);
+//			height: 5px;
+		}
+  }
+}

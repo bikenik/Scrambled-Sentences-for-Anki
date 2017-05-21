@@ -1,0 +1,220 @@
+/*==================================== 
+ Audir button
+=====================================*/
+.browserhide {}
+.replaybutton {
+	display: block;
+	vertical-align: middle;
+//	margin-top: 30px;
+}
+
+.replaybutton span svg {
+	display: block;
+	stroke: none;
+	fill: $background-light;
+	background: $color-sec;
+	display: inline;
+	height: 2em;
+	width: 2em;
+	min-width: 12px;
+	min-height: 12px;
+	border-radius: 50%;
+	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.44);
+}
+
+.sound_main {
+	z-index: 0;
+	position: fixed;
+}
+
+.sound_front {
+	z-index: 200;
+	display: block;
+	position: absolute;
+//	margin-left: 20%;
+	top: 20px;
+float: left;
+	@media(max-width: 1866px){
+		margin-left: 15%
+	}
+	@media(max-width: 1566px){
+		margin-left: 11%
+	}
+	@media(max-width: 1466px){
+		margin-left: 9%
+	}
+	@media(max-width: 1366px){
+		margin-left: 7%
+	}
+	@media(max-width: 1150px){
+		margin-left: 5%
+	}
+	@media #{$brk-wide} {
+		margin-left: 5px;
+	}
+}
+
+#question-audio {
+	width: 80px;
+	float: left;
+	display: block;
+	position: relative;
+	padding: 0;
+	margin-top: 5em;
+	background: none;
+	text-align: center;
+
+		@media #{$brk-narrow}{
+			width: 100%;
+			margin-top: .5em;
+			background: $color-button;
+			float: none;
+		}
+		@media #{$brk-iPhone6sPlus-wide}{
+			width: 60px;
+			margin-top: 3em;
+			background: none;
+			float: left;
+		}
+		@media #{$brk-iPhone6sPlus-portrait}{
+			width: 100%;
+			margin-top: .5em;
+			float: none;
+			background: $color-button;
+		}
+}
+
+#question-audio > .replaybutton span svg {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	background: $color-button;
+	box-shadow: none;
+	margin-top: 5px;
+//	margin-bottom: -7px;
+}
+
+.question > div > .replaybutton {
+	display: inline;
+}
+.question > div > .replaybutton span svg {
+	position: relative;
+	display: block;
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.iphone .question > div img,
+.ipad .question > div img {
+	max-width: 65px !important;
+	min-width: 65px !important;
+	margin-bottom: 9px;
+}
+
+.question > div > div > .replaybutton {
+	display: inline;
+}
+.question > div > div > .replaybutton span svg {
+	position: relative;
+	display: block;
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.iphone .question > div > div  img,
+.ipad .question > div > div  img {
+	max-width: 65px !important;
+	min-width: 65px !important;
+	margin-bottom: 9px;
+}
+.answer_audio {
+	float: left;
+   position: absolute;
+   margin-left: 10px;
+   z-index: 100;
+}
+
+#question-audio > .replaybutton{
+	width: 100%;
+	margin-left: 0;
+}
+#question-audio > svg{
+//	width: 100%;
+//	margin-left: 160px;
+}
+
+.iphone #question-audio img,
+.ipad #question-audio img {
+	max-width: 128px !important;
+	min-width: 128px !important;
+	padding: 7px;
+	
+	@media #{$brk-narrow} {
+		max-width: 90px !important;
+		min-width: 90px !important;
+//		padding-left: 100px;
+	}
+	@media #{$brk-iPhone-wide} {
+		max-width: 65px !important;
+		min-width: 65px !important;
+	}
+}
+
+.ipad .sound_front {
+	margin-left: 5px;
+}
+
+.question_answer {
+	z-index: 0;
+	position: absolute;
+	top: 15px;
+	margin-left: 20px;
+	color: $black;
+
+	@media #{$brk-iPhone-wide} {
+		max-width: 20px;
+		top: 0;
+	}
+	@media #{$brk-iPhone6sPlus-portrait} {
+		margin-left: 5px;
+	}
+}
+
+.iphone .sound_front img,
+.ipad .sound_front img{
+	background: $background-app;
+	max-width: 128px !important;
+	min-width: 128px !important;
+	
+	
+	@media #{$brk-narrow}{
+		max-width: 90px !important;
+		min-width: 90px !important;
+	}
+	@media #{$brk-iPhone-wide}{
+		max-width: 50px !important;
+		min-width: 50px !important;
+	}
+}
+
+.iphone .question_answer img,
+.ipad .question_answer img{
+	max-width: 128px !important;
+	min-width: 128px !important;
+	
+	@media #{$brk-narrow}{
+		max-width: 90px !important;
+		min-width: 90px !important;
+	}
+	@media #{$brk-iPhone-wide}{
+		max-width: 50px !important;
+		min-width: 50px !important;
+	}
+}
+
+.iphone .question_answer {
+	top: 15px;
+}
+//.question_answer > .replaybutton{
+//	margin-left: 20px;
+//}
