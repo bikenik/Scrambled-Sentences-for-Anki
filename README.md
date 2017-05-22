@@ -25,7 +25,7 @@ Also was tested on the Windows 10 (desctop) last version Anki.
 
 ## Card Types
 There are currently one type of card.<br>
- **[Cloze]**
+ **[Basic]**
   - Freeform show/hide, question/answer, audio/subtitles fields.<br><br>
 
 #### some necessary operations for this template:
