@@ -500,6 +500,15 @@ li::before {
   position: absolute;
   top: -1000px; }
 
+.back > div > div ul {
+  display: block;
+  padding-bottom: 30px; }
+
+.back {
+  display: block;
+  overflow: auto;
+  height: 75%; }
+
 /*==================================== 
  Audir button
 =====================================*/
