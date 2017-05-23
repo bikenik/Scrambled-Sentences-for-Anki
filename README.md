@@ -59,22 +59,22 @@ Required
 
 ### ✔ »»♻«« Examples:
 Required
->**example** - 
+Each phrase should be divided by a semicolon ";" except last expression.
+or 
 ``` html
 <ul>
-	<li>
-		<i>pick out one you like!</i>
-	</li>
-	<li>
-		She picked out a nice dress for the party.
-	</li>
-	<li>
-		I picked out the best apple in the basket.
-	</li>
-	<li>
-		A: I want to buy a shirt, but I don't know which color to get. B: I'll help you pick out a color!
-	</li>
+	<li>"expression1"</li>
+	<li>"expression2"</li>
+	<li>"expression3"</li>
+	<li>"expression4"</li>
 </ul>
+```
+>**example** - 
+``` 
+		pick out one you like!;
+		She picked out a nice dress for the party.;
+		I picked out the best apple in the basket.;
+		A: I want to buy a shirt, but I don't know which color to get. B: I'll help you pick out a color!
 ```
 
 This template support max 10 list - and in a form as in an example up only. The order of list will be scramble.
@@ -82,21 +82,24 @@ This template support max 10 list - and in a form as in an example up only. The 
 ### »»♻«« Translation
 Optional
 It's recommended that Number of this field's list will be match with number of field's list " »»♻«« Examples " is recommended, but it won't crash template.
-Each of sentences of Translation list order should be equal to target language list order, as you understand.     
->**example** - 
+Each of sentences of Translation list order should be equal to target language list order, as you understand ).
+
+Each phrase should be divided by a semicolon ";" except last expression.
+or
 ``` html
 <ul>
-	<li>
-		<i>выберите тот, который Вы любите!</i>
-	</li>
-	<li>
-		Она выбрала хорошее платье для вечеринки.
-	</li>
-		<li>Я выбрал лучшее яблоко в корзине.</li>
-	<li>
-		A: Я хочу купить рубашку, но я не знаю какой цвет подобрать. B: Я помогу Вам выбрать цвет!
-	</li>
+	<li>"expression1"</li>
+	<li>"expression2"</li>
+	<li>"expression3"</li>
+	<li>"expression4"</li>
 </ul>
+```
+>**example** - 
+``` 
+		<i>выберите тот, который Вы любите!;</i>
+		Она выбрала хорошее платье для вечеринки.;
+		Я выбрал лучшее яблоко в корзине.;
+		A: Я хочу купить рубашку, но я не знаю какой цвет подобрать. B: Я помогу Вам выбрать цвет!
 ```
 
 ### ♫ Audio:
@@ -112,5 +115,3 @@ choose; single out
 
 ### ♨ Image
 Optional
-
-

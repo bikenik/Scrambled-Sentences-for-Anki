@@ -39,12 +39,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/README.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/README.pdf",
-		"oF": 0
-		},
 	"\/readmeImg\/preview-4_min.jpg": {
 		"ft": 16384,
 		"iS": 66189,
@@ -3314,20 +3308,20 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/Templates\/2x2 (ABC-scramble)\/js\/min\/scramble-for-illustrated-card-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/Templates\/2x2 (ABC-scramble)\/js\/min\/scramble-for-illustrated-card-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/Templates\/2x2 (ABC-scramble)\/js\/scramble-base.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/Templates\/2x2 (ABC-scramble)\/js\/scramble-base-min.js",
+		"oAP": "\/Templates\/2x2 (ABC-scramble)\/js\/min\/scramble-base-min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/Templates\/2x2 (ABC-scramble)\/js\/scramble-for-illustrated-card-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/Templates\/2x2 (ABC-scramble)\/js\/scramble-for-illustrated-card-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3338,7 +3332,7 @@
 		"oA": 0,
 		"oAP": "\/Templates\/2x2 (ABC-scramble)\/js\/scramble-for-illustrated-card-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/Templates\/2x2 (ABC-scramble)\/license.txt": {

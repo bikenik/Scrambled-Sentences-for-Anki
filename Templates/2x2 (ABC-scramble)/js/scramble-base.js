@@ -6,6 +6,28 @@
 /* global document */
 /* eslint-env browser */
 // MODEL //--//
+
+/*--------------------DIVIDE BY ( "; ")-------------------------*/
+var examples = $(".hide-examples");
+var translation = $(".question>div");
+
+function divide(target){
+var choices = target.text();
+	var boxes = choices.split(";");
+var list = "";
+list = list + "<ul>";
+			for (var i = 0; i < boxes.length; i++) {
+			list = list + "<li>" + boxes[i] + "</li>";
+		}
+list = list + "</ul>";
+target[0].innerHTML = list;
+}
+if (examples.length > 0 && $(".hide-examples>ul")[0] === undefined) {
+	divide(examples);
+}
+if (translation.length > 0 && $(".question>div>ul")[0] === undefined) {
+	divide(translation);
+}
 /*--------------------SCRAMBLE-------------------------*/
 var russian = $(".question>div>ul>li");
 //russian.splice(0, 1);
