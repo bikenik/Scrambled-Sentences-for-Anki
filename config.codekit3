@@ -15,10 +15,10 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/Deck\/ABS_Essential_Idioms_in_English__02 Intermediate.apkg": {
+	"\/Deck\/Scrambled - Essential Idioms in English__02 Intermediate.apkg": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Deck\/ABS_Essential_Idioms_in_English__02 Intermediate.apkg",
+		"oAP": "\/Deck\/Scrambled - Essential Idioms in English__02 Intermediate.apkg",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -44,6 +44,16 @@
 		"oA": 2,
 		"oAP": "\/README.pdf",
 		"oF": 0
+		},
+	"\/readmeImg\/preview-4_min.jpg": {
+		"ft": 16384,
+		"iS": 66189,
+		"oA": 0,
+		"oAP": "\/readmeImg\/preview-4_min.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/readmeImg\/preview_1.jpg": {
 		"ft": 16384,

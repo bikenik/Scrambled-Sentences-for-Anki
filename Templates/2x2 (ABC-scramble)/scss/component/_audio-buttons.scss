@@ -105,6 +105,7 @@ float: left;
 }
 
 .iphone .question > div img,
+.ipad .question > div img,
 .ipad .question > div img {
 	max-width: 65px !important;
 	min-width: 65px !important;
@@ -121,8 +122,9 @@ float: left;
 	width: 1.5em;
 }
 
-.iphone .question > div > div  img,
-.ipad .question > div > div  img {
+.iphone .question > div > div img,
+.ipad .question > div > div img,
+.mobile .question > div > div img {
 	max-width: 65px !important;
 	min-width: 65px !important;
 	margin-bottom: 9px;
@@ -144,7 +146,8 @@ float: left;
 }
 
 .iphone #question-audio img,
-.ipad #question-audio img {
+.ipad #question-audio img,
+.mobile #question-audio img {
 	max-width: 128px !important;
 	min-width: 128px !important;
 	padding: 7px;
@@ -181,7 +184,8 @@ float: left;
 }
 
 .iphone .sound_front img,
-.ipad .sound_front img{
+.ipad .sound_front img,
+.mobile .sound_front img{
 	background: $background-app;
 	max-width: 128px !important;
 	min-width: 128px !important;
@@ -198,7 +202,8 @@ float: left;
 }
 
 .iphone .question_answer img,
-.ipad .question_answer img{
+.ipad .question_answer img,
+.mobile .question_answer img{
 	max-width: 128px !important;
 	min-width: 128px !important;
 	
@@ -212,7 +217,8 @@ float: left;
 	}
 }
 
-.iphone .question_answer {
+.iphone .question_answer,
+.mobile .question_answer {
 	top: 15px;
 }
 //.question_answer > .replaybutton{

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*==================================== 
-   Anki Template "Scramble Words 2x2" v1.0 / https://github.com/bikenik/
+   Anki Template "Scramble Words 2x2" v1.0.1 / https://github.com/bikenik/
 =====================================*/
 /*==================================== 
 Copyright (c) 2017 by bikeNik (https://github.com/bikenik)
@@ -386,7 +386,8 @@ body {
 .mac .card,
 .win .card,
 .iphone .card,
-.ipad .card {
+.ipad .card,
+.mobile .card {
   overflow-x: hidden; }
 
 .hr_style {
@@ -482,7 +483,8 @@ div.codehilite {
   padding: .5em; }
 
 .iphone .meaning,
-.ipad .meaning {
+.ipad .meaning,
+.mobile .meaning {
   display: block; }
 
 li {
@@ -604,6 +606,7 @@ li::before {
   width: 1.5em; }
 
 .iphone .question > div img,
+.ipad .question > div img,
 .ipad .question > div img {
   max-width: 65px !important;
   min-width: 65px !important;
@@ -619,7 +622,8 @@ li::before {
   width: 1.5em; }
 
 .iphone .question > div > div img,
-.ipad .question > div > div img {
+.ipad .question > div > div img,
+.mobile .question > div > div img {
   max-width: 65px !important;
   min-width: 65px !important;
   margin-bottom: 9px; }
@@ -635,18 +639,21 @@ li::before {
   margin-left: 0; }
 
 .iphone #question-audio img,
-.ipad #question-audio img {
+.ipad #question-audio img,
+.mobile #question-audio img {
   max-width: 128px !important;
   min-width: 128px !important;
   padding: 7px; }
   @media (max-width: 769px) {
     .iphone #question-audio img,
-    .ipad #question-audio img {
+    .ipad #question-audio img,
+    .mobile #question-audio img {
       max-width: 90px !important;
       min-width: 90px !important; } }
   @media (max-width: 569px) {
     .iphone #question-audio img,
-    .ipad #question-audio img {
+    .ipad #question-audio img,
+    .mobile #question-audio img {
       max-width: 65px !important;
       min-width: 65px !important; } }
 
@@ -668,37 +675,44 @@ li::before {
       margin-left: 5px; } }
 
 .iphone .sound_front img,
-.ipad .sound_front img {
+.ipad .sound_front img,
+.mobile .sound_front img {
   background: #202020;
   max-width: 128px !important;
   min-width: 128px !important; }
   @media (max-width: 769px) {
     .iphone .sound_front img,
-    .ipad .sound_front img {
+    .ipad .sound_front img,
+    .mobile .sound_front img {
       max-width: 90px !important;
       min-width: 90px !important; } }
   @media (max-width: 569px) {
     .iphone .sound_front img,
-    .ipad .sound_front img {
+    .ipad .sound_front img,
+    .mobile .sound_front img {
       max-width: 50px !important;
       min-width: 50px !important; } }
 
 .iphone .question_answer img,
-.ipad .question_answer img {
+.ipad .question_answer img,
+.mobile .question_answer img {
   max-width: 128px !important;
   min-width: 128px !important; }
   @media (max-width: 769px) {
     .iphone .question_answer img,
-    .ipad .question_answer img {
+    .ipad .question_answer img,
+    .mobile .question_answer img {
       max-width: 90px !important;
       min-width: 90px !important; } }
   @media (max-width: 569px) {
     .iphone .question_answer img,
-    .ipad .question_answer img {
+    .ipad .question_answer img,
+    .mobile .question_answer img {
       max-width: 50px !important;
       min-width: 50px !important; } }
 
-.iphone .question_answer {
+.iphone .question_answer,
+.mobile .question_answer {
   top: 15px; }
 
 /*==================================== 
@@ -954,7 +968,8 @@ div.row {
   text-align: center; }
 
 .ipad #words,
-.iphone #words {
+.iphone #words,
+.mobile #words {
   width: 100%; }
 
 #words span,
@@ -1119,7 +1134,8 @@ div.codehilite {
   padding: .5em; }
 
 .iphone .meaning,
-.ipad .meaning {
+.ipad .meaning,
+.mobile .meaning {
   display: block; }
 
 li {
@@ -1672,7 +1688,8 @@ header {
       background-color: #fabd68; }
 
 .iphone .hide,
-.ipad .hide {
+.ipad .hide,
+.mobile .hide {
   display: none; }
 
 /*==================================== 
@@ -1846,7 +1863,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       left: 0; } }
 
 .ipad .hide-content,
-.iphone .hide-content {
+.iphone .hide-content,
+.mobile .hide-content {
   top: 0;
   padding: 0; }
 

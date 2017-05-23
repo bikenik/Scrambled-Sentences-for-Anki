@@ -113,7 +113,8 @@ body {
 .mac .card,
 .win .card,
 .iphone .card,
-.ipad .card {
+.ipad .card,
+.mobile .card {
 	overflow-x: hidden;
 }
 
@@ -237,7 +238,8 @@ div.codehilite {
 }
 
 .iphone .meaning,
-.ipad .meaning {
+.ipad .meaning,
+.mobile .meaning {
 	display: block;
 }
 
