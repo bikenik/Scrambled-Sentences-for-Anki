@@ -13,7 +13,8 @@ var translation = $(".question>div");
 
 function divide(target){
 var choices = target.text();
-	var boxes = choices.split(";");
+	var re = /\s*;\s*/;
+	var boxes = choices.split(re);
 var list = "";
 list = list + "<ul>";
 			for (var i = 0; i < boxes.length; i++) {
