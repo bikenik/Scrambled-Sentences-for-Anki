@@ -1,8 +1,10 @@
 /* --------------------- question ------------------------------ */
 .question {
-	display: inline-block;
-	width: 85%;
-   margin-left: .5em;
+  display: block;
+	// display: inline-block;
+	width: 95%;
+   // margin-left: .5em;
+  margin: 0 auto;
 	box-sizing: border-box;
 
 		@media #{$brk-narrow}{
@@ -29,14 +31,7 @@
 	margin-bottom: .3em;
 }
 
-a {
-	color: rgba(51, 102, 153, 0.36);
-	text-decoration: underline;
-	cursor: auto;
-}
-a:hover {
-	color: #336699;
-}
+
 
 .add-space-for-mobile {
 	@media #{$brk-wide} {
@@ -138,14 +133,16 @@ li {
 }
 li::before {
    font-size: 1.5em;
-   content: "∘ ";
+//	  content: "∘ ";
    line-height: -30%;
    color: $color-prim;
 }
 
 .hide-examples {
 //    margin-bottom: -500px;
-    z-index: -100;
-    position: absolute;
-    top: -1000px;
+//    z-index: -100;
+//    position: absolute;
+//    top: -1000px;
+	display: none;
 }
+

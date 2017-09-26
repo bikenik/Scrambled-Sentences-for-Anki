@@ -26,12 +26,19 @@ function material(e) {
           scramble.style.display = null;
       }
       if (scramble.className !== "container active" ){
-    setTimeout(function(){scramble.classList.add("active")}, 500);
+    setTimeout(function(){scramble.classList.add("active");}, 500);
       }
     scramble.classList.remove("active");
 	}
     return contentCtr.classList.toggle("active");
   }
 (function() {
-  button.addEventListener("click", material);
+  button.onclick = material;
 }).call(this);
+/**
+ * hide empty fields
+ */
+// if ($("#question-audio")[0].innerHTML === "") {
+//   $("#question-audio")[0].style.display = "none";
+// }
+

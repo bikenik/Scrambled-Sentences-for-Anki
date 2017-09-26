@@ -201,6 +201,7 @@ pre,
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
+  display: inline !important;
 }
 
 // Forms
@@ -482,8 +483,8 @@ del {
 }
 p {
 display: block;
--webkit-margin-before: 1em;
--webkit-margin-after: 1em;
+-webkit-margin-before: .5em;
+-webkit-margin-after: .5em;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
 }

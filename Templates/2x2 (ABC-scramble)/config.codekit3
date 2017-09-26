@@ -17,6 +17,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/back copy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/back copy.html",
+		"oF": 0
+		},
 	"\/back.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -3126,6 +3132,42 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/external\/anki_source\/jQuery-v1.5-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/external\/anki_source\/min\/jQuery-v1.5-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/external\/anki_source\/Sizzle-CSS-Selector-Engine-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/external\/anki_source\/min\/Sizzle-CSS-Selector-Engine-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/external\/jquery\/jquery-min-v1.12.4.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/external\/jquery\/min\/jquery-min-v1.12.4-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/external\/jquery\/jquery-ui-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/external\/jquery\/min\/jquery-ui-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/front for anki.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -3151,6 +3193,15 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/js\/index-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/index-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/index.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3169,6 +3220,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/min\/scramble-base copy-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/scramble-base copy-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/scramble-base-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3178,11 +3238,29 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/min\/scramble-for-illustrated-card-min.js": {
+	"\/js\/scramble-base copy.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/min\/scramble-for-illustrated-card-min-min.js",
+		"oAP": "\/js\/min\/scramble-base copy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scramble-base-new-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/scramble-base-new-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scramble-base-new.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/scramble-base-new-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3196,6 +3274,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/scramble-for-illustrated-card-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/scramble-for-illustrated-card-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/scramble-for-illustrated-card.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3205,10 +3292,28 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/ldoce.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ldoce.html",
+		"oF": 0
+		},
 	"\/license.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/merriam-word-of-the-day.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/merriam-word-of-the-day.html",
+		"oF": 0
+		},
+	"\/merriam-words.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/merriam-words.html",
 		"oF": 0
 		},
 	"\/scss\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_convert-units.scssc": {
@@ -4373,6 +4478,19 @@
 		"oS": 0,
 		"uL": 0
 		},
+	"\/scss\/component\/_ldoce.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_ldoce.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 0
+		},
 	"\/scss\/component\/_scrambled.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4382,6 +4500,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/css\/_scrambled.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 0
+		},
+	"\/scss\/component\/_WOD.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/css\/_WOD.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 0
@@ -4502,6 +4633,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 0
+		},
+	"\/test.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test.html",
+		"oF": 0
 		}
 	},
 "hooks": [

@@ -202,4 +202,20 @@ header {
 //			height: 5px;
 		}
   }
+  .tag {
+  float: left;
+  font-size: 1.3rem;
+  opacity: 1;
+  transition: .3s;
+  
+    @media #{$brk-iPhone6sPlus-wide}{
+      font-size: .8rem;
+    }
+    @media #{$brk-iPhone6sPlus-portrait}{
+      font-size: .8rem;
+    }
+  }
+  &.active .tag{
+    opacity: 0;
+  }
 }

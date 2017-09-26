@@ -12,11 +12,12 @@
 	z-index: 0;
 	&.active {
 		overflow-y: auto;
+		padding-bottom: 50px;
 		z-index: 1000;
 		-webkit-overflow-scrolling: touch;
 		/* lets it scroll lazy */
 		opacity: 1;
-		margin-top: 17%;
+		margin-top: 20%;
 		height: px(1024);
 		transition: .3s margin-top ease;
 		//        transition-delay: s;
@@ -37,7 +38,7 @@
 			margin-top: 15%;
 		}
 		@media #{$brk-iPhone-wide} {
-						margin-top: 12%;
+			margin-top: 13%;
 			height: px(320);
 		}
 		@media #{$brk-iPhone6sPlus-portrait} {

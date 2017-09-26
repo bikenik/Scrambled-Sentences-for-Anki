@@ -1,0 +1,1 @@
+for(var audioButton=$(".replaybutton span svg"),i=0;i<audioButton.length;i++)"speaker amefile fa fa-volume-up"===audioButton[i].parentNode.parentNode.parentNode.className?audioButton[i].style.fill="#4693db":"speaker brefile fa fa-volume-up"===audioButton[i].parentNode.parentNode.parentNode.className&&(audioButton[i].style.fill="#fa6360");

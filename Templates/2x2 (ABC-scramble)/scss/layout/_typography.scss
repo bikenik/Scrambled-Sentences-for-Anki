@@ -45,30 +45,30 @@ white-space: pre-wrap;
 	font-weight: 100;
 	word-spacing: 0px;
 	line-height: 1.3em;
-	text-align: left;
+	text-align: center;
    font-size: rem(37);
 
    @media #{$brk-narrow}{
-      font-size: em(37);
+      font-size: em(27);
       line-height: 1em;
    }
    @media #{$brk-iPhone6sPlus-wide}{
-      font-size: em(34);
+      font-size: em(24);
    }
    @media #{$brk-iPhone6s-wide}{
-      font-size: em(32);
+      font-size: em(12);
    }
    @media #{$brk-iPhone-wide}{
-      font-size: em(26);
+      font-size: em(16);
    }
    @media #{$brk-iPhone6sPlus-portrait}{
-      font-size: em(34);
+      font-size: em(24);
    }
    @media #{$brk-iPhone6s-portrait}{
-      font-size: em(32);
+      font-size: em(22);
    }
    @media #{$brk-extra-narrow}{
-      font-size: em(28);
+      font-size: em(18);
    }
 }
 
@@ -185,54 +185,55 @@ header {
 .content-ctr {
    .title,
    h1, h2 {
-      line-height: 1;
+    line-height: .9;
     font-family: "Roboto-Regular";
-    font-size: em(30);
+    font-size: em(20);
     color: $color-prim;
    }
 
   .par {
     font-family: "Roboto-ThinItalic";
-		font-size: em(18);
+		font-size: em(25);
     line-height: 110%;
-    font-weight: 300;
+    //    font-weight: 300;
     color: #9b9b9b;
+    text-align: center;
 		@media #{$brk-narrow}{
-			font-size: em(18);
+			// font-size: em(25);
 			}
 		@media #{$brk-iPhone6sPlus-wide}{
-			font-size: em(13);
+			// font-size: em(25);
 		}
 		@media #{$brk-iPhone6s-wide}{
-			font-size: em(15);
+			font-size: em(27);
 		}
 		@media #{$brk-iPhone-wide}{
-			font-size: em(16);
+			font-size: em(28);
 		}
 		@media #{$brk-iPhone6sPlus-portrait}{
 //			font-size: em(24);
 		}
 		@media #{$brk-iPhone6s-portrait}{
-			font-size: em(12);
+			font-size: em(25);
 		}
 		@media #{$brk-extra-narrow}{
-			font-size: em(14);
+			font-size: em(27);
 		}
   }
 }
 .win .content-ctr,
 .mac .content-ctr {
 .par {
-	font-family: "Roboto";
-	font-weight: 100;
-	font-style: italic;
+//	font-family: "Roboto";
+//	font-weight: 100;
+//	font-style: italic;
 }
 
 .title,
 h1, h2, {
 	font-family: "Roboto";
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 400;
 }
 }
 /* --------------- Scramble ---------------------- */
@@ -385,3 +386,16 @@ code#typeans {
 	color: #2ed85a;
 	font-weight: normal;
 }
+
+ul[type="circle"] {
+  text-align: left;
+}
+.backContent {
+  .par {
+    text-align: left;
+  }
+}
+// .backContent > .header-content-ctr > .header-content >.par > span {
+//   text-align: center;
+//   display: block;
+// }

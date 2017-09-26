@@ -1,0 +1,691 @@
+.definition-content {
+  text-align: left;
+  font-family:'Open Sans', sans-serif;
+  color:#333333;
+  line-height: 1.4em;
+}
+
+.replaybutton span {
+  padding: 0px 5px;
+}
+
+#header .replaybutton span {
+  padding-right: 2px;
+}
+
+/* for export into apkg */
+.media_br {
+  content: url("_fa_volume-up_brefile.png");
+}
+
+.media_am {
+  content: url("_fa_volume-up_amefile.png");
+}
+
+.media_ex {
+  content: url("_fa_volume-up_exafile.png");
+}
+
+/* Ldoce Styles */
+.EXAMPLE {
+    color:#778899;
+    margin-left:20px;
+}
+
+ .Entry
+{
+    font-family : "Arial Unicode MS", "Open Sans";
+    font-size : 11pt;
+    text-align : justify;
+    display : block;
+    margin-top : 8px;
+}
+
+ .Thesref {
+    color : #364395;
+}
+
+ .ABBR
+{
+    font-weight : bold;
+}
+
+ .ACTIV
+{
+    display : none;
+}
+
+ .AMEQUIV
+{
+    font-weight : bold;
+}
+
+ .BOX
+{
+    display : none;
+}
+
+ .BREQUIV
+{
+    font-weight : bold;
+}
+
+ .COLLO
+{
+    font-weight : bold;
+    margin-left : 20px;
+}
+
+ .ColloExa
+{
+    display : block;
+}
+
+ .COLLOINEXA
+{
+    font-weight : bold;
+}
+
+ .COMMENT
+{
+    display : none;
+}
+
+ .COMP
+{
+    font-weight : bold;
+}
+
+ .Crossrefto
+{
+    font-weight : bold;
+    font-size : 1.5em;
+}
+
+ .DERIV
+{
+    font-weight : bold;
+    font-size : 1.5em;
+}
+
+ .Entry
+{
+    font-family : "Arial Unicode MS", "Open Sans";
+    font-size : 11pt;
+    text-align : justify;
+}
+
+ .ErrorBox
+{
+    display : block;
+}
+
+ .EXAMPLE
+{
+    display : block;
+    margin-left : 20px;
+    color : gray;
+}
+
+ .FIELD
+{
+    display : none;
+}
+
+ .AC,
+ .synopp {
+    color : #fff;
+    border-color: #f1d600;
+    background-color:#f1d600;
+}
+
+ .FREQ
+{
+    color : red;
+    border-color : red;
+}
+
+//  
+.LEVEL
+{
+    color : red;
+    font-size : 1.1em;
+    font-family: arial;
+}
+
+ .FULLFORM
+{
+    font-weight : bold;
+}
+
+ .GEO,
+ .geo
+{
+    font-weight : normal;
+    color : #50ad43;
+}
+
+ .GLOSS
+{
+    color : #50ad43;
+    font-weight : normal;
+    font-style : normal;
+    font-family : "Arial Unicode MS", "Open Sans";
+}
+
+ .GRAM
+{
+    color : green;
+    font-weight:bold;
+    margin:0 5px 10px 3px
+}
+
+ .GramExa
+{
+    display : block;
+}
+
+ .HINTBOLD
+{
+    font-weight : bold;
+}
+
+ .HINTITALIC
+{
+    font-style : italic;
+}
+
+ .HINTTITLE
+{
+    font-weight : bold;
+}
+
+ .frequent .HOMNUM {
+    vertical-align : super;
+    font-size : 12pt;
+    color : red;
+    font-weight : bold;
+}
+
+ .frequent .HYPHENATION {
+    color : red;
+    font-size : 1em;
+}
+ .HOMNUM
+{
+    vertical-align : super;
+    font-size : 12pt;
+    color : red;
+    font-weight : bold;
+}
+
+ .HWD
+{
+    display : none;
+}
+
+ .HYPHENATION,
+ .PHRVBHWD
+{
+    // font-family : "Arial Unicode MS", "Open Sans";
+    font-weight : 700;
+    font-size : 1.5em;
+    color : red;
+}
+
+ .LEXUNIT,
+ .LEXVAR
+{
+    font-weight : bold;
+}
+
+ .LINKWORD
+{
+    color : #364395;
+}
+
+ .NOTE,
+ .Noteprompt
+{
+    display : none;
+}
+
+ .OBJECT
+{
+    font-weight : normal;
+}
+
+ .OPP,
+ .ORTHVAR,
+ .PASTPART,
+ .PASTTENSE
+{
+    font-weight : bold;
+}
+
+ .PhrVbEntry
+{
+    display : block;
+}
+
+ .PIC,
+ .PICCAL
+{
+    display : none;
+}
+
+ .PLURALFORM
+{
+    font-weight : bold;
+}
+
+ .POS
+{
+    color : green;
+    font-weight:bold;
+    margin:0 0 0 10px
+}
+
+ .PRESPART,
+ .PRESPARTX
+{
+    font-weight : bold;
+}
+
+ .PROPFORM
+{
+    font-weight : bold;
+    margin-left : 20px;
+}
+
+ .PROPFORMPREP
+{
+    font-weight : bold;
+    margin-left : 20px;
+}
+
+ .PTandPP,
+ .PTandPPX
+{
+    font-weight : bold;
+}
+
+ .REFHOMNUM
+{
+    vertical-align : super;
+    font-size : .7em;
+}
+
+ .REFHWD
+{
+    font-weight : bold;
+    font-style : normal;
+}
+
+ .REFLEX
+{
+    font-weight : bold;
+}
+
+ .REGISTERLAB
+{
+    color : purple;
+    font-style : italic;
+}
+
+ .RELATEDWD
+{
+    font-weight : bold;
+    color:blue;
+}
+
+ .RunOn
+{
+    display : block;
+    margin-bottom : 10px;
+}
+
+ .Sense {
+    display : block;
+    margin-left : 20px;
+    margin-bottom : 15px;
+}
+
+ .SIGNPOST
+{
+    background-color: #f18500;
+    color: white;
+    font-weight: bold;
+    font-size: .8em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 0px 5px;
+    letter-spacing: 1px;
+}
+
+ .STRONG
+{
+    font-family : "Arial Unicode MS", "Open Sans";
+    font-style : italic;
+}
+
+ .Subsense
+{
+    display : block;
+    margin-left : 10px;
+}
+
+ .SUPERL,
+ .SYN,
+ .T3PERSSING,
+ .T3PERSSINGX
+{
+    font-weight : bold;
+}
+
+ .UNCLASSIFIED
+{
+    font-weight : bold;
+}
+
+ .USAGE
+{
+    display : none;
+}
+
+ .GramBox .CROSS .neutral {
+    color: red;
+    margin-right: 10px;
+}
+
+ .neutral
+{
+    color : white;
+    font-style : normal;
+    font-weight : normal;
+    font-variant : normal;
+    font-family : Arial Unicode MS, "Open Sans";
+}
+
+  .EXPL .cross,
+  .GramBox .EXPL .dont_say,
+  .BADEXA
+{
+    color : red;
+}
+
+ .italic
+{
+    font-style : italic;
+    font-weight : normal;
+    font-family : Arial Unicode MS, "Open Sans";
+}
+
+ .infllab
+{
+    font-style : italic;
+    font-weight : normal;
+    font-family : Arial Unicode MS, "Open Sans";
+}
+
+ .warning
+{
+    font-style : normal;
+    font-weight : bold;
+    font-family : Arial Unicode MS, "Open Sans";
+    color : red;
+}
+
+ .sensenum
+{
+    font-style : normal;
+    font-weight : bold;
+    color : white;
+}
+
+ .synopp,
+ .FREQ,
+ .AC
+{
+    display : inline-block;
+    font-style : normal;
+    font-weight : bold;
+    text-transform : uppercase;
+    border-radius : 5px;
+    -moz-border-radius : 5px;
+    -webkit-border-radius : 5px;
+    border : solid 1px;
+    padding-left : 4px;
+    padding-right : 4px;
+}
+
+ .ColloBox,
+ .ThesBox,
+ .F2NBox,
+ .GramBox {
+    display : block;
+    border-radius : 5px;
+    -moz-border-radius : 5px;
+    -webkit-border-radius : 5px;
+    border : solid #364395 1px;
+    padding : 15px;
+    margin : 8px 0;
+}
+
+.GramBox{
+    background-color:#fff;
+    color:#000
+}
+
+.GramBox .boxheader {
+    line-height:2em
+}
+
+.ColloBox .heading {
+    line-height:2em;
+    margin:0 10px 0  0
+}
+
+.ThesBox .heading{
+    line-height:2em
+}
+
+ .HEADING,
+ .heading {
+    font-weight : bold;
+    font-size : 1.5em;
+    color : #364395;
+}
+
+ .HEADING.newline {
+    display : block;
+}
+
+ .SECHEADING,
+ .subheading {
+    display : table;
+    border-radius : 5px;
+    -moz-border-radius : 5px;
+    -webkit-border-radius : 5px;
+    border : solid #6f469d 2px;
+    padding-left : 4px;
+    padding-right : 20px;
+    margin:25px 0 10px 0;
+    font-weight : bold;
+    color : white;
+    text-transform : uppercase;
+    background-color : #6f469d;
+}
+
+ .Collocate,
+ .Exponent {
+    display : block;
+    margin:15px 0 0 6px;
+}
+
+ .EXPL {
+    display : block;
+}
+
+ .COLLOC,
+ .EXP,
+ .EXPR {
+    font-weight : bold;
+}
+
+ .keycollo {
+    font-weight : bold;
+    color : #364395;
+}
+
+ .THESPROPFORM {
+    font-weight : bold;
+}
+
+ .COLLEXA,
+ .THESEXA {
+    color : gray;
+    display : block;
+}
+
+ .LearnerItem {
+    display : block;
+}
+
+ .GOODCOLLO {
+    font-style : italic;
+}
+
+ .BADCOLLO {
+    text-decoration : line-through;
+}
+
+ .DEFBOLD {
+    font-weight : bold;
+}
+
+ .exafile {
+    color : gray;
+    font-style : normal;
+    font-size : 1.5em;
+    padding: 5px;
+}
+
+ .amefile {
+    color : #4693db;
+    font-size : 1.3em;
+    padding-left: 5px;
+}
+// .iphone .speaker {
+//     margin-top: 15px;
+// }
+ .brefile {
+    color : #fa6360;
+    font-size : 1.3em;
+    padding-left: 5px;
+}
+
+ul, ol{
+    list-style-type:none;
+}
+
+a{
+    color:inherit;
+    text-decoration:inherit;
+}
+
+a:hover{
+    cursor:pointer;
+}
+
+.defRef{
+    border-bottom: thin dotted gray;
+}
+
+span.neutral
+{
+    font-style : normal;
+    font-weight : normal;
+    font-variant : normal;
+}
+
+span.italic,
+span.infllab
+{
+    font-style : italic;
+    font-weight : normal;
+    font-family : Times New roman;
+}
+
+span.warning
+{
+    font-style : normal;
+    font-weight : bold;
+    color : red;
+}
+
+span.sensenum
+{
+    font-style : normal;
+    font-weight : bold;
+    margin-right : 5px;
+    margin-left : 3px;
+}
+
+span.synopp
+{
+    font-style : normal;
+    font-weight : bold;
+    color : darkblue;
+}
+
+.suppressed {
+    display : none;
+}
+
+/* Custom Styles */
+ .Sense {
+    margin-left : 0px;
+}
+
+.lexunit, .sense .lexvar {
+  font-weight: bold;
+  color: #8bb6ce;
+}
+
+.lexunit {
+  margin-right : 8px;
+}
+
+.marked { 
+  position: fixed;
+  right: 8px;
+  top: 8px;
+}
+
+img { 
+  max-width: none;
+  max-height: none;
+}
+
+.fa-volume-up img {
+  width: 23px;
+}
+
+.exafile img {
+  width: 20px;
+}
+
+.fa-volume-up img {
+  vertical-align: -5px;
+}
+
+.exafile img {
+  vertical-align: -3px;
+}
+
+.exafile span {
+  padding-left: 0px;
+}

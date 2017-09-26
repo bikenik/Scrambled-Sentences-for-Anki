@@ -23,12 +23,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
     
     .par {
+      padding-top: 1em;
       transition: .3s all ease .3s;
+      margin: 0 auto;
+      position: relative;
+      display: block;
     }
   }
+.mac .header-content-ctr,
+.win .header-content-ctr {
+  .par {
+    width: 80%;
+  }
+}
 .content-ctr {
 	.header-content {
-		@include position(absolute, 45% 0 x 0);
+		@include position(absolute, 40% 0 x 0);
 		padding: .5em .5em 30px;
 		
 		@media #{$brk-wide}{
@@ -38,7 +48,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 //			@include position(absolute, 45% 0 x 1em);
 		}
 		@media #{$brk-narrow}{
-//			@include position(absolute, 45% 0 x 1em);
+			@include position(absolute, 42% 0 x 1em);
 		}
 		@media #{$brk-iPhone6sPlus-wide}{
 			@include position(absolute, 47% 0 x 0);
@@ -61,35 +71,45 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
   .main-content {
-    @include position(relative, 350px 0 x 0);
+    @include position(relative, 200px 0 x 0);
 		padding: .5em .5em 30px;
-//    margin-left: 1.5em;
-//    top: 30%;
-		@media #{$brk-wide}{
-			@include position(relative, 200px 0 x 0);
+		z-index: 100;
+		height: px(824);
+    height: 70vh;
+    -webkit-height: 70vh;
+		@media #{$brk-wide} {
+			height: px(768);
+      height: 70vh;
 		}
-//		@media #{$brk-wide-appButtons}{
-//			@include position(absolute, 45% 0 x 1em);
-//		}
+		@media #{$brk-narrow} {
+			top: 150px;
+			// height: px(1024);
+		}
 		@media #{$brk-iPhone6sPlus-wide}{
-		@include position(relative, 25% 0 x 0);
+		@include position(relative, 85px 0 x 0);
+		// height: px(414);
 		}
 		@media #{$brk-iPhone6s-wide}{
-		@include position(relative, 30% 0 x 0);
+		// height: px(375);
 		}
 		@media #{$brk-iPhone-wide}{
-		@include position(relative, 25% 0 x 0);
+		@include position(relative, 55px 0 x 0);
+		// height: px(320);
 		}
 		@media #{$brk-iPhone6sPlus-portrait}{
-		@include position(relative, 17% 0 x 0);
+		@include position(relative, 95px 0 x 0);
+		// height: px(736);
 		}
 		@media #{$brk-iPhone6s-portrait}{
-		@include position(relative, 15% 0 x 0);
+		@include position(relative, 95px 0 x 0);
+		// height: px(667);
 		}
 		@media #{$brk-extra-narrow}{
-		@include position(relative, 18% 0 x 0);
+		// height: px(568);
 		}
 		  }
+
+
 .ipad .hide-content,
 .iphone .hide-content,
 .mobile .hide-content{

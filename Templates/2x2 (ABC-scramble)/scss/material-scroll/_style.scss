@@ -48,11 +48,17 @@
     transform: translateY(0px);
     opacity: 1;
   }
-
+	&.backContent {
+		&.active{
+			position: absolute;
+		}
+	}
   .title,
 	h1, h2 {
+    display: block;
+    margin: 0 auto;
     margin-bottom: 10px;
-    margin-top: em(12);
+    // margin-top: em(12);
     transition: .3s all ease;
 		
   }
@@ -62,7 +68,7 @@
     min-height: 0%;
 		width: 100%;
     transition: .3s height ease;
-    overflow: hidden;
+//    overflow: hidden;
     
     .title,
     .par {

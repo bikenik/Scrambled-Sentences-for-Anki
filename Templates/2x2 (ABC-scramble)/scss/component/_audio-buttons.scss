@@ -1,5 +1,5 @@
 /*==================================== 
- Audir button
+ Audio button
 =====================================*/
 .browserhide {}
 .replaybutton {
@@ -12,12 +12,12 @@
 	display: block;
 	stroke: none;
 	fill: $background-light;
-	background: $color-sec;
+	// background: $color-sec;
 	display: inline;
-	height: 2em;
-	width: 2em;
-	min-width: 12px;
-	min-height: 12px;
+	height: 1em;
+	width: 1em;
+	min-width: 52px;
+	min-height: 52px;
 	border-radius: 50%;
 	box-shadow: 0 1px 14px rgba(0, 0, 0, 0.44);
 }
@@ -60,7 +60,7 @@ float: left;
 	display: block;
 	position: relative;
 	padding: 0;
-	margin-top: 5em;
+	margin-top: 5px;
 	background: none;
 	text-align: center;
 
@@ -88,7 +88,7 @@ float: left;
 	display: inline-block;
 	position: relative;
 	padding: 0;
-	background: $color-button;
+	// background: $color-button;
 	box-shadow: none;
 	margin-top: 5px;
 //	margin-bottom: -7px;
@@ -106,7 +106,10 @@ float: left;
 
 .iphone .question > div img,
 .ipad .question > div img,
-.ipad .question > div img {
+.mobile .question > div img,
+.ipad .sreaker > div img,
+.iphone .sreaker > div img,
+.mobile .sreaker > div img{
 	max-width: 65px !important;
 	min-width: 65px !important;
 	margin-bottom: 9px;
@@ -124,7 +127,7 @@ float: left;
 
 .iphone .question > div > div img,
 .ipad .question > div > div img,
-.mobile .question > div > div img {
+.mobile .question > div > div img{
 	max-width: 65px !important;
 	min-width: 65px !important;
 	margin-bottom: 9px;
@@ -155,13 +158,40 @@ float: left;
 	@media #{$brk-narrow} {
 		max-width: 90px !important;
 		min-width: 90px !important;
-//		padding-left: 100px;
+	//		padding-left: 100px;
 	}
 	@media #{$brk-iPhone-wide} {
 		max-width: 65px !important;
 		min-width: 65px !important;
 	}
 }
+
+.iphone .speaker,
+.ipad .speaker,
+.mobile .speaker {
+	padding: 0;
+	margin: 0;
+}
+
+.iphone .speaker img,
+.ipad .speaker img,
+.mobile .speaker img {
+	// position: absolute;
+	padding-right: 10px;
+	margin: 0;
+	max-width: 128px !important;
+	min-width: 128px !important;
+	margin-bottom: -15px;
+	@media #{$brk-narrow} {
+		max-width: 90px !important;
+		min-width: 90px !important;
+	}
+	@media #{$brk-iPhone-wide} {
+		max-width: 65px !important;
+		min-width: 65px !important;
+	}
+}
+
 
 .ipad .sound_front {
 	margin-left: 5px;
@@ -224,3 +254,43 @@ float: left;
 //.question_answer > .replaybutton{
 //	margin-left: 20px;
 //}
+.mac .audio-front > a{
+	&.active {
+		display: table;
+		margin: 30px auto;
+	}
+}
+.audio-front > a{
+	display: none;
+	&.active {
+		display: inline-block;
+		margin-top: -50px;
+		float: left;
+		margin-left: 20%;
+		
+				//@media #{$brk-narrow}{
+		//	
+		//}
+		//@media #{$brk-iPhone6sPlus-wide}{
+		//	
+		//}
+		//@media #{$brk-iPhone6s-wide}{
+		//	
+		//}
+		//@media #{$brk-iPhone-wide}{
+		//	
+		//}
+		@media #{$brk-iPhone6sPlus-portrait}{
+			display: block;
+			margin-top: 20px;
+			float: none;
+			margin-left: 0;
+		}
+		//@media #{$brk-iPhone6s-portrait}{
+		//	
+		//}
+		//@media #{$brk-extra-narrow}{
+		//	
+		//}
+	}
+}
