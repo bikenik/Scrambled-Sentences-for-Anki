@@ -1,5 +1,5 @@
 # Table of contents
 
 * [Anki Theme](README.md)
-* [Untitled](untitled.md)
+* [my title](my-title.md)
 
